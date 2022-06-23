@@ -1,0 +1,25 @@
+#wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgb(252, 251, 248);
+    
+
+}
+
+body {
+    background: #ccc;
+    
+}
+
+img {
+    max-width: 250px;
+    max-height: 150px;
+    border-style:solid;
+    border-color: #ddd;
+    box-shadow: #999;
+    
+}
+
+#ship {
+    float: right;
+}
