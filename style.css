@@ -2,24 +2,49 @@
     max-width: 800px;
     margin: 0 auto;
     background-color: rgb(252, 251, 248);
-    
+    padding: 20px;
 
 }
 
 body {
     background: #ccc;
+    font-family: nanum brush script;
+   
     
+}
+
+figure {
+    float:right;
+    width:30%;
+    text-align: center;
+    border: thin #ddd solid;
+    box-shadow: 4 4 6 #999;
+    margin-top: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    transform: rotate(5deg);
+}
+
+#figure2 {
+    float: left;
+    transform: rotate(-5deg);
+
+
+
+}
+
+figcaption {
+    color: #333;
 }
 
 img {
     max-width: 250px;
     max-height: 150px;
-    border-style:solid;
-    border-color: #ddd;
-    box-shadow: #999;
+    
     
 }
 
-#ship {
-    float: right;
+
+h1 {
+    font-family: seaweed script;
 }
